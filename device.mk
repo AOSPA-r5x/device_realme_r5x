@@ -34,6 +34,10 @@ PRODUCT_SOONG_NAMESPACES += \
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_props.mk
 
+#Board 
+TARGET_BOARD_PLATFORM := trinket
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
