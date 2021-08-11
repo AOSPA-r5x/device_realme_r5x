@@ -38,6 +38,10 @@ PRODUCT_SOONG_NAMESPACES += \
 TARGET_BOARD_PLATFORM := trinket
 PRODUCT_USES_QCOM_HARDWARE := true
 
+# Shim
+PRODUCT_PACKAGES += \
+    libdisplay_shim
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \

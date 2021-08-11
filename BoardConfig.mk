@@ -36,6 +36,9 @@ PRODUCT_USES_QCOM_HARDWARE := true
 #Kernel DTS
 TARGET_DTS_VENDOR := *
 
+# Shim
+TARGET_LD_SHIM_LIBS += /vendor/lib64/vendor.display.config@1.0.so|libdisplay_shim.so
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := RMX1911,RMX1925,RMX1927,RMX2030
 
