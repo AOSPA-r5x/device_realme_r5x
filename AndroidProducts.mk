@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_r5x.mk
+    $(LOCAL_DIR)/conquer_r5x.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_r5x-user \
-    evolution_r5x-userdebug \
-    evolution_r5x-eng
+    conquer_r5x-user \
+    conquer_r5x-userdebug \
+    conquer_r5x-eng
