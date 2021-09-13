@@ -391,10 +391,24 @@
     <fraction name="config_maximumScreenDimRatio">30%</fraction>
 
     <!-- Fast brightness animation ramp rate in brightness units per second-->
-     <integer name="config_brightness_ramp_rate_fast">180</integer>
+     <integer name="config_brightness_ramp_rate_fast">308</integer>
 
     <!-- Slow brightness animation ramp rate in brightness units per second-->
     <integer translatable="false" name="config_brightness_ramp_rate_slow">60</integer>
+    <integer name="config_brightness_ramp_rate_slow">246</integer>
+    <integer name="config_longPressOnHomeBehavior">0</integer>
+
+    <!--  Maximum number of supported users -->
+    <integer name="config_multiuserMaximumUsers">5</integer>
+	 
+	<!-- Show the network traffic monitor on statusbar even if the device has a notch -->
+    <bool name="config_forceShowNetworkTrafficOnStatusBar">true</bool>
+	
+    <!-- Default value for led color when battery is fully charged -->
+     <integer name="config_notificationsBatteryFullARGB">0xFF00FF00</integer>
+
+    <!-- Default value for led color when battery is low on charge -->
+     <integer name="config_notificationsBatteryLowARGB">0xFFFF0000</integer>
 
     <!-- Shutdown if the battery temperature exceeds (this value * 0.1) Celsius. -->
      <integer name="config_shutdownBatteryTemperature">680</integer>
