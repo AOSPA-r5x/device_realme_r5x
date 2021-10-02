@@ -2822,6 +2822,100 @@ vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|a1fa17975cc7a2433e9383fe161ee34
 vendor/lib/vendor.qti.hardware.fm@1.0.so|479edd57130d47cc84c92d71837a1e50b5b29663
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|c82d3f7c0e6f9f30a42a0e4158077e692e62de77
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|eafe7c9254077253ad9512fa5622948954769420
+vendor/etc/camera/gasryuv.model
+vendor/etc/camera/merged_model_post
+vendor/etc/camera/M_Attribute_Gender_Age_1.0.model.hardcode
+
+# Camera-motor
+vendor/etc/init/hw/init.oppo.vendor.motor.rc
+
+# Camera - From full_oppo6769-user 10 QP1A.190711.020 RMX2020_11.A.63 release-keys
+vendor/lib/monet_hlt_custfront_gc5035_tuning.so
+vendor/lib/monet_hlt_front_gc5035B_tuning.so
+vendor/lib/monet_hlt_front_gc5035_tuning.so
+vendor/lib/monet_lh_macro_gc2375h_tuning.so
+vendor/lib/monet_truly_main_ov12a10_tuning.so
+vendor/lib/monetd_truly_main_ov12a10_tuning.so
+vendor/lib/monetx_hlt_macro_gc2375h_tuning.so
+vendor/lib/monetx_hlt_macro_gc2385_tuning.so
+vendor/lib/monetx_ofilm_front_ov16a1q_tuning.so
+vendor/lib/monetx_shengtai_wide_ov8856_tuning.so
+vendor/lib/monetx_truly_main_s5kgm1sp_tuning.so
+vendor/lib64/libcam.feature_utils.so
+vendor/lib64/libcam.hal3a.cctsvr.so
+vendor/lib64/libcam.hal3a.v3.dng.so
+vendor/lib64/libcam.hal3a.v3.nvram.so
+vendor/lib64/libcam.hal3a.v3.so
+vendor/lib64/libcam.halsensor.so
+vendor/lib64/libcam.iopipe.so
+vendor/lib64/libcam.lcs.so
+vendor/lib64/libcam.vhdr.so
+vendor/lib64/libcamera_core_hwi.so
+vendor/lib64/libcameracustom.so
+vendor/lib64/libmtkcam.featurepipe.capture.so
+vendor/lib64/libmtkcam.featurepipe.depthmap.so
+vendor/lib64/libmtkcam.featurepipe.streaming.so
+vendor/lib64/libmtkcam.logicalmodule.so
+vendor/lib64/libmtkcam_3rdparty.customer.so
+vendor/lib64/libmtkcam_3rdparty.mtk.so
+vendor/lib64/libmtkcam_metadata.so
+vendor/lib64/libmtkcam_metastore.so
+vendor/lib64/libmtkcam_modulefactory_aaa.so
+vendor/lib64/libmtkcam_pipeline.so
+vendor/lib64/libmtkcam_pipelinemodel.so
+vendor/lib64/libmtkcam_pipelinemodel_capture.so
+vendor/lib64/libmtkcam_pipelinemodel_session.so
+vendor/lib64/libmtkcam_pipelinemodel_utils.so
+vendor/lib64/libmtkcam_pipelinemodel_zsl.so
+vendor/lib64/libmtkcam_pipelinepolicy.so
+vendor/lib64/monet_hlt_custfront_gc5035_tuning.so
+vendor/lib64/monet_hlt_custfront_gc5035_IdxMgr.so
+vendor/lib64/monet_hlt_front_gc5035B_IdxMgr.so
+vendor/lib64/monet_hlt_front_gc5035B_tuning.so
+vendor/lib64/monet_hlt_front_gc5035_tuning.so
+vendor/lib64/monet_lh_macro_gc2375h_tuning.so
+vendor/lib64/monet_truly_main_ov12a10_tuning.so
+vendor/lib64/monetd_truly_main_ov12a10_tuning.so
+vendor/lib64/monet_hlt_depth_ov02a1b_IdxMgr.so
+vendor/lib64/monetx_hlt_macro_gc2375h_tuning.so
+vendor/lib64/monetx_hlt_macro_gc2385_tuning.so
+vendor/lib64/monetx_ofilm_front_ov16a1q_tuning.so
+vendor/lib64/monetx_shengtai_wide_ov8856_tuning.so
+vendor/lib64/monetx_truly_main_s5kgm1sp_tuning.so
+
+# Charger - From Redmi/merlin/merlin:11/RP1A.200720.011/V12.5.1.0.RJOMIXM:user/release-keys
+bin/charger:bin/chargeonlymode|bb74c36cee72b1f2e2c8090eb6f21352eba8e83f
+
+# DRM (Hardware) - from alps/vnd_oppo6769/oppo6769:11/RP1A.200720.011/1607914664672:user/release-keys
+vendor/bin/hw/android.hardware.drm@1.3-service.widevine|bb1ee465a6608d2704fbe9a787acbc7c4dc0aa85
+vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff19064a81e07c4be82ceaf4bb5
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
+
+# DRM (Widevine) - from alps/vnd_oppo6769/oppo6769:11/RP1A.200720.011/1607914664672:user/release-keys
+vendor/lib/mediadrm/libwvdrmengine.so|c15e8d8d2599d14a342cc61cae462a0747afb4e7
+vendor/lib/libwvhidl.so|eaaeae9b0e2c33ef4a1de720737a026680d2fa61
+vendor/lib64/mediadrm/libwvdrmengine.so|3d0c6e0a75b77ef2bf7d39289797a91def6b3830
+vendor/lib64/libwvhidl.so|e8d3ce4c6e5e8e1e02dd24173a846687f6acbb1f
+
+# Display-Hardware
+vendor/bin/hw/android.hardware.memtrack@1.0-service
+vendor/etc/init/android.hardware.memtrack@1.0-service.rc
+vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
+vendor/lib/hw/gralloc.default.so
+vendor/lib/hw/gralloc.mt6768.so
+vendor/lib/hw/memtrack.mt6768.so
+vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
+vendor/lib64/hw/gralloc.default.so
+vendor/lib64/hw/gralloc.mt6768.so
+vendor/lib64/hw/hwcomposer.mt6768.so
+vendor/lib64/hw/memtrack.mt6768.so
+
+# EngineerMode
+-priv-app/EngineerMode/EngineerMode.apk
+lib/libem_support_jni.so
+lib64/libem_support_jni.so
+-lib/libem_support_jni.so
+-lib64/libem_support_jni.so
 
 # Fingerprint
 vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service
