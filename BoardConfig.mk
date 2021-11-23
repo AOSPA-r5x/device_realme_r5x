@@ -235,6 +235,7 @@ WIFI_DRIVER_STATE_ON := "ON"
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 CONFIG_OWE := true
+CONFIG_MBO := true
 
 # Inherit the proprietary files
 -include vendor/realme/r5x/BoardConfigVendor.mk
