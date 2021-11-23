@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lighthouse_r5x.mk
+    $(LOCAL_DIR)/dot_r5x.mk
 
 COMMON_LUNCH_CHOICES := \
-    lighthouse_r5x-user \
-    lighthouse_r5x-userdebug \
-    lighthouse_r5x-eng
+    dot_r5x-user \
+    dot_r5x-userdebug \
+    dot_r5x-eng
