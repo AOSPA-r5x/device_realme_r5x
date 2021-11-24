@@ -154,6 +154,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     KharaMeDirac
 
+# Doze
+PRODUCT_PACKAGES += \
+    KharaMeParts    
+
 # Display
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0_32 \
