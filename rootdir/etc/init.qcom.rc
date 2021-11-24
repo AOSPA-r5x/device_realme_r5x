@@ -1144,3 +1144,13 @@ service vendor.contexthub-hal-1-0 /vendor/bin/hw/android.hardware.contexthub@1.0
 on property:persist.sys.device_provisioned=1
     setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,7
     setprop dalvik.vm.dex2oat-threads 6
+
+on property:gsm.version.baseband=*
+     start set_baseband
+
+service set_baseband /vendor/bin/init.set_baseband.sh
+     class late_start
+     user system
+     group system
+     oneshot
+ 
