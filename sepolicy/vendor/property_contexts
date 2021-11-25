@@ -63,4 +63,4 @@ persist.vendor.delta.                                       u:object_r:vendor_ti
 persist.audio.dirac                           u:object_r:dirac_prop:s0
 
 # Fix Baseband
-gsm.version.baseband
+gsm.version.baseband               u:object_r:baseband_prop:s0
