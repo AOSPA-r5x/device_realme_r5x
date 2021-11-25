@@ -12,3 +12,6 @@ type vendor_time_prop, property_type;
 
 # Dirac
 type dirac_prop, property_type;
+
+# Fix Baseband
+type baseband_prop, property_type;

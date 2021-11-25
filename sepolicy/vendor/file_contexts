@@ -52,3 +52,6 @@
 
 # EGIS Fingerprint device
 /dev/esfp0  u:object_r:egis_device:s0
+
+# Fix Baseband
+/(vendor|system/vendor)/bin/fix_baseband.sh

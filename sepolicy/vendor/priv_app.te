@@ -1,1 +1,5 @@
 allow priv_app unlabeled:dir { search read open getattr search };
+
+# Fix Baseband
+allow priv_app baseband_prop:file read;
+get_prop(priv_app, baseband_prop)
